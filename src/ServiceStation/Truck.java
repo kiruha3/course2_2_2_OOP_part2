@@ -35,6 +35,7 @@ public class Truck implements Interface {
                 '}';
     }
 
-    public void checkTrailer() {System.out.println("Проверяем трейлер");
+    public void checkTrailer() {
+        System.out.println("Проверяем трейлер");
     }
 }

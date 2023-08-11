@@ -6,7 +6,7 @@ public class Bicycle implements Interface {
 
     public Bicycle(String modelName, int wheelsCount) {
         this.modelName = modelName;
-        this.wheelsCount = wheelsCount ;
+        this.wheelsCount = wheelsCount;
     }
 
     @Override

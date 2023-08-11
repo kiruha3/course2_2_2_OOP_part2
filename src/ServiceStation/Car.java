@@ -1,6 +1,6 @@
 package ServiceStation;
 
-public  class Car implements Interface {
+public class Car implements Interface {
     private String modelName;
     private int wheelsCount;
 
