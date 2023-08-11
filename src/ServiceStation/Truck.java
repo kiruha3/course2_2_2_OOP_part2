@@ -34,4 +34,7 @@ public class Truck implements Interface {
                 ", Количество колес=" + wheelsCount +
                 '}';
     }
+
+    public void checkTrailer() {System.out.println("Проверяем трейлер");
+    }
 }
