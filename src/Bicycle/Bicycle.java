@@ -7,7 +7,7 @@ public class Bicycle implements PrintBicycle {
 
     public Bicycle(String modelName, int wheelsCount) {
         this.modelName = modelName;
-        this.wheelsCount = wheelsCount;
+        this.wheelsCount = wheelsCount ;
     }
 
     @Override
