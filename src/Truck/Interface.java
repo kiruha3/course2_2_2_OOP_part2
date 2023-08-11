@@ -2,19 +2,19 @@ package Truck;
 
 public interface Interface {
     default void updateTyre() {
-        System.out.println("Нет инфы");
+        System.out.println("Меняем покрышку");
     }
 
     ;
 
     default void checkEngine() {
-        System.out.println("Нет инфы");
+        System.out.println("Проверяем двигатель");
     }
 
     ;
 
     default void checkTrailer() {
-        System.out.println("Нет инфы");
+        System.out.println("Проверяем трейлер");
     }
 
     ;

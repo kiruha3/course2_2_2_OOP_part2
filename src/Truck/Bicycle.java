@@ -11,11 +11,6 @@ public class Bicycle implements Interface {
         this.wheelsCount = wheelsCount;
     }
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
     public String getModelName() {
         return modelName;
     }

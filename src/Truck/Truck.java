@@ -11,16 +11,6 @@ public class Truck implements Interface {
         this.wheelsCount = wheelsCount;
     }
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    @Override
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
     public String getModelName() {
         return modelName;
     }
@@ -37,7 +27,7 @@ public class Truck implements Interface {
                 '}';
     }
 
-    public void checkTrailer() {
-        System.out.println("Проверяем трейлер");
-    }
+//    public void checkTrailer() {
+//        System.out.println("Проверяем трейлер");
+//    }
 }

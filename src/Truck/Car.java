@@ -11,16 +11,6 @@ public class Car implements Interface {
         this.wheelsCount = wheelsCount;
     }
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    @Override
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-
     public String getModelName() {
         return modelName;
     }
