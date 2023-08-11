@@ -10,6 +10,6 @@ public interface Interface {
     };
 
     default void checkTrailer(){
-        System.out.println("Нет инфы");
+        System.out.println("Нет инфы") ;
     };
 }
