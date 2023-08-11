@@ -1,6 +1,6 @@
-package Car;
+package ServiceStation;
 
-public abstract class Car implements InterfaceCar {
+public  class Car implements Interface {
     private String modelName;
     private int wheelsCount;
 

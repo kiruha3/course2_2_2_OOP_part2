@@ -14,8 +14,6 @@ public class CarSedan extends Car {
 
     @Override
     public String toString() {
-        return "CarTruck{" + super.toString()+
-                " bucket=" + would +
-                "} " ;
+        return "CarTruck{" + super.toString() + " bucket=" + would + "} ";
     }
 }
