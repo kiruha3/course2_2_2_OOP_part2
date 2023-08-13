@@ -20,7 +20,7 @@ public abstract class Transport implements TransportIntarface {
     @Override
     public void updateTyre() {
         for (int i = 0; i < this.getWheelsCount(); i++) {
-            System.out.println("Меняем покрышку");
+            System.out.println("Меняем покрышку") ;
         }
     }
 
