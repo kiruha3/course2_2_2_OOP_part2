@@ -1,6 +1,6 @@
-package Truck;
+package truck;
 
-public abstract class Transport implements Interface {
+public abstract class Transport implements TransportIntarface {
     private String modelName;
     private int wheelsCount;
 
@@ -15,6 +15,13 @@ public abstract class Transport implements Interface {
 
     public int getWheelsCount() {
         return wheelsCount;
+    }
+
+    @Override
+    public void updateTyre() {
+        for (int i = 0; i < this.getWheelsCount(); i++) {
+            System.out.println("Меняем покрышку");
+        }
     }
 
     @Override

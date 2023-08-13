@@ -1,9 +1,4 @@
-package Truck;
-
-import ServiceStation.Bicycle;
-import ServiceStation.Car;
-import ServiceStation.ServiceStation;
-import ServiceStation.Truck;
+package truck;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,17 +14,17 @@ public class Main {
 
 
         ServiceStation station = new ServiceStation();
-        station.check(car, null, null);
+        station.check(car);
         System.out.println("\"\" = " + "1");
-        station.check(car2, null, null);
+        station.check(car2);
         System.out.println("\"\" = " + "2");
-        station.check(null, bicycle, null);
+        station.check( bicycle);
         System.out.println("\"\" = " + "3");
-        station.check(null, bicycle2, null);
+        station.check(bicycle2);
         System.out.println("\"\" = " + "4");
-        station.check(null, null, truck);
+        station.check(truck);
         System.out.println("\"\" = " + "5");
-        station.check(null, null, truck2);
+        station.check(truck2);
         System.out.println("\"\" = " + "6");
     }
 }
