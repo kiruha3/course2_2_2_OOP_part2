@@ -13,6 +13,6 @@ public interface TransportIntarface {
         System.out.println("Проверяем трейлер");
     }
 
-   void doServise();
+   void doServise() ;
 
 }
