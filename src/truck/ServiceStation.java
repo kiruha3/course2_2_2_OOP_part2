@@ -1,7 +1,7 @@
 package truck;
 
 public class ServiceStation {
-    public void check(Transport transport) {
-        transport.doServise();
+    public void check(TransportIntarface transportIntarface) {
+        transportIntarface.doServise();
     }
 }
